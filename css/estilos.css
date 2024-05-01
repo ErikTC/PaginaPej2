@@ -1,0 +1,482 @@
+@charset "utf-8";
+
+@import url("RobotoSlab_VariableFont_wght/stylesheet.css");
+@import url("Frutiger/stylesheet.css");
+@import url("Acme_Regular/stylesheet.css");
+
+
+
+header {
+}
+.encabezado {
+    height: 3800px;
+    width: 1900px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.encabezado #logo {
+    margin-left: 125px;
+    margin-top: 26px;
+}
+
+.encabezado #logo #botones {
+    height: 91px;
+    width: 1361px;
+    margin-left: 198px;
+    margin-top: -98px;
+}
+.topnav a {
+	background-color: rgb(255, 255, 255); /* Color de fondo inicial */
+    overflow: hidden;
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding-top: 14px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Frutiger;
+    border-radius: 2px;
+    margin-left: 125px;
+    margin-top: 20px;
+    -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.70);
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.70);
+    font-weight: bold;
+	transition: background-color 0.3s, color 0.3s; /* Transición suave */
+
+}
+
+.topnav a:hover {
+    background-color: #1c3e58; /* Nuevo color de fondo */
+    color: #fff; /* Nuevo color de texto */
+}
+.encabezado #into {
+    margin-left: 413px;
+    margin-top: 230px;
+    width: 1075px;
+    height: 200px;
+    top: 9px;
+    left: 46px;
+    font-family: Frutiger;
+    color: rgba(28,62,88,1.00);
+    text-align: center;
+    font-size: 40px;
+}
+.encabezado #into #info2 {
+    color: rgba(58,53,53,1.00);
+    font-family: "RobotoSlab VariableFont wght";
+    font-size: 20px;
+    margin-top: 28px;
+}
+.encabezado #servicios {
+    width: 1920px;
+    height: 615px;
+    background-color: #1d3e5a;
+    margin-top: -21px;
+}
+.encabezado #servicios #tituloserv {
+    text-align: center;
+    font-size: 27pt;
+    font-family: Frutiger;
+    color: #FFFFFF;
+    width: 917px;
+    height: 80px;
+    margin-top: 34px;
+    margin-left: 489px;
+}
+.encabezado #servicios #dismarca {
+    width: 267px;
+    height: 296px;
+    margin-left: 200px;
+    margin-top: 130px;
+}
+#servicios #dismarca #titulomarc {
+    text-align: center;
+    font-size: 23px;
+    font-family: Frutiger;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+#servicios #dismarca #desmarc {
+    margin-top: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+}
+.encabezado #servicios #dismaterial {
+    width: 267px;
+    height: 296px;
+    margin-left: 600px;
+    margin-top: -293px;
+}
+#servicios #dismaterial #titulodismate {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Frutiger;
+    font-weight: bold;
+    font-size: 21px;
+}
+#servicios #dismaterial #descripdimate {
+    margin-top: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.encabezado #servicios #animacion {
+    width: 267px;
+    height: 296px;
+    margin-left: 1000px;
+    margin-top: -293px;
+}
+#servicios #animacion #titulanimac {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Frutiger;
+    font-weight: bold;
+    font-size: 22px;
+}
+.encabezado #servicios #desanimac {
+    margin-top: 34px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.encabezado #servicios #web {
+    width: 267px;
+    height: 296px;
+    margin-left: 1400px;
+    margin-top: -304px;
+}
+.encabezado #servicios #titweb {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Frutiger;
+    font-weight: bold;
+    font-size: 21px;
+
+
+
+
+
+}
+#servicios #web #desweb {
+    margin-top: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Estilos para el contenedor */
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Estilos para el CTA */
+.cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff7f50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transición de color */
+}
+
+/* Estilos para el CTA cuando se pasa el cursor */
+.cta:hover {
+    background-color: #ff6347;
+    color: #fff;
+}
+
+
+/* Estilos para equipo */
+.encabezado #equipo {
+    width: 1920px;
+    height: 894px;
+    background-color: #FFFFFF;
+
+}
+.encabezado #equipo #equitrabajo {
+    margin-top: 38px;
+    text-align: center;
+    color: rgba(59,61,64,1.00);
+    font-size: 40px;
+}
+.encabezado #equipo #info3 {
+    color: rgba(59,61,64,1.00);
+    font-family: Frutiger;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 49px;
+    font-size: 20px;
+    width: 524px;
+    height: 200px;
+    margin-left: 697px;
+}
+body {
+    font-family: Frutiger;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1431px;
+    margin-top: -73px;
+    margin-right: auto;
+    margin-left: 194px;
+    margin-bottom: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.circle {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+    overflow: hidden;
+    margin-top: 55px;
+    margin-right: 55px;
+    margin-left: 55px;
+    margin-bottom: 55px;
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+
+.circle:hover img {
+    transform: scale(1.1);
+}
+
+.circle p {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.circle:hover p {
+    opacity: 1;
+}
+
+p {
+    text-align: center; /* Añade un margen superior para separar el texto del círculo */
+    font-size: 14px; /* Tamaño de fuente */
+    color: #333; /* Color de texto */
+}
+
+
+
+
+/* Estilos para el contenedor del banner proyectos */
+
+
+.banner {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    width: 1902px;
+    height: 600px;
+    margin-top: -136px;
+}
+.encabezado #equipo #im1 {
+    margin-top: -35px;
+    text-align: left;
+    height: 115px;
+}
+
+
+.banner h2 {
+    color: #fff; /* Color del texto */
+    font-size: 40px; /* Tamaño de fuente */
+    text-align: center; /* Alineación del texto */
+    margin-bottom: 20px; /* Espacio entre el título y las imágenes */
+}
+
+
+/* Estilos para los slides de las imágenes */
+.slides {
+    display: flex;
+	margin: 0 -20px; /* Agrega un margen negativo a los lados del carrusel */
+}
+
+.slides img {
+    width: 489px; /* Ancho fijo */
+    height: 326px; /* Altura automática para mantener la proporción */
+    object-fit: cover; /* Recortar las imágenes para ajustarse al tamaño especificado */
+    margin-right: 20px; /* Agrega un margen a la derecha de cada imagen */
+    margin-top: 41px;
+    margin-left: 120px;
+}
+
+/* Estilos para las flechas de navegación */
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+
+/* Espaciado para video  */
+
+.video-section {
+    text-align: center;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 8px; /* Espaciado alrededor del contenido */
+    height: 786px;
+    padding-top: 10px;
+}
+
+.video-container {
+    max-width: 600px; /* Ancho máximo del contenedor de video */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    position: relative; /* Asegura que el video sea relativo al contenedor */
+    padding-bottom: 33.75%; /* Proporción de aspecto del video (16:9) */
+}
+
+.video-container iframe {
+    position: absolute; /* Coloca el video absolutamente dentro del contenedor */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-section h2 {
+    margin-bottom: 20px;
+    color: #000000;
+    font-family: Frutiger;
+    font-size: 28px;
+}
+
+.video-section p {
+    margin-top: 20px;
+	color: #fff;/* Espacio superior para la información */
+}
+
+
+/* Espacio para cotizacion */
+
+.encabezado #cotizacion {
+    height: 732px;
+}
+.encabezado #cotizacion h2 {
+    text-align: center;
+    font-family: Frutiger;
+    font-size: 30px;
+}
+
+
+
+.encabezado #cotizacion p {
+    font-family: Verdana;
+    font-style: italic;
+    font-size: 16px;
+}
+.encabezado #cotizacion #formulario {
+    height: 304px;
+    width: 533px;
+    margin-top: 59px;
+    margin-right: 46px;
+    margin-left: 679px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    top: 0px;
+    background-color: hsla(211,27%,38%,0.75);
+}
+
+label {
+    display: inline-block;
+    width: 100px; /* Ancho fijo para las etiquetas */
+    text-align: right; /* Alineación del texto a la derecha */
+    margin-right: 10px; /* Margen derecho para separación */
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 200px; /* Ancho fijo para las cajas de texto */
+    padding: 5px; /* Espaciado interno */
+}
+
+#submit {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	display: block; /* Hacer que el botón sea un bloque para centrarlo */
+    margin: 0 auto; /* Margen automático para centrarlo horizontalmente */
+    font-size: 15px; /* Tamaño del texto */
+    width: 200px; /* Ancho del botón */
+}
+
+#submit:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+footer {
+    background-color: #1d3e5a;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    height: 233px;
+}
+
+.footer-logo img {
+    width: 148px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.company-info {
+    color: #fff;
+    margin-top: -59px;
+}
+.social-links a {
+    color: #fff;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    font-size: 20px;
+    margin-top: 13px;
+}
