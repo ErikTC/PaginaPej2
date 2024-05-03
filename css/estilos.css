@@ -7,10 +7,11 @@
 
 
 header {
+
 }
 .encabezado {
-    height: 100vh;
-    width: auto;
+    height: 3800px;
+    width: 1920px;
     margin-top: 25px;
     margin-right: auto;
 }
@@ -22,8 +23,8 @@ header {
 
 .encabezado #logo #botones {
     height: 91px;
-    width: 1361px;
-    margin-left: 198px;
+    width: 100%;
+    margin-left: 145px;
     margin-top: -98px;
 }
 .topnav a {
@@ -56,7 +57,7 @@ header {
 .encabezado #into {
     margin-left: 413px;
     margin-top: 230px;
-    width: 1075px;
+    width: 1440px;
     height: 200px;
     top: 9px;
     left: 46px;
@@ -72,10 +73,10 @@ header {
     margin-top: 28px;
 }
 .encabezado #servicios {
-    width: 100%; 
     height: 615px;
     background-color: #1d3e5a;
     margin-top: -21px;
+    width: 1920px;
 }
 .encabezado #servicios #tituloserv {
     text-align: center;
@@ -192,10 +193,9 @@ header {
 
 /* Estilos para equipo */
 .encabezado #equipo {
-    width: 100%; 
     height: 894px;
     background-color: #FFFFFF;
-
+    width: 1920px;
 }
 .encabezado #equipo #equitrabajo {
     margin-top: 38px;
@@ -289,9 +289,9 @@ p {
     position: relative;
     max-width: 100%;
     overflow: hidden;
-    width: 100%; 
     height: 600px;
     margin-top: -136px;
+    width: 1920px;
 }
 .encabezado #equipo #im1 {
     margin-top: -35px;
@@ -389,6 +389,7 @@ p {
 
 .encabezado #cotizacion {
     height: 732px;
+    width: 1920px;
 }
 .encabezado #cotizacion h2 {
     text-align: center;
