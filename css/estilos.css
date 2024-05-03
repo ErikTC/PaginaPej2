@@ -9,8 +9,8 @@
 header {
 }
 .encabezado {
-    height: 3800px;
-    width: 1200px;
+    height: 3800em;
+    width: 1200em;
     margin-top: 25px;
     margin-right: auto;
 }
